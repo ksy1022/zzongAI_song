@@ -628,7 +628,7 @@ async function handleGenerateMelody() {
 
     // 캐릭터/말풍선 초기화
     if (characterImg) {
-      characterImg.src = "asset/character1.svg";
+      characterImg.src = "/static/asset/character1.svg";
       characterImg.classList.remove("character2");
       characterImg.classList.add("character1");
     }
@@ -668,7 +668,7 @@ async function handleGenerateMelody() {
       bubbleBox.innerHTML =
         "쫑알이 완성되었어요!<br>아래에서 노래를 들어보세요 🎵";
       if (characterImg) {
-        characterImg.src = "asset/character2.svg";
+        characterImg.src = "/static/asset/character2.svg";
         characterImg.classList.remove("character1");
         characterImg.classList.add("character2");
       }
