@@ -41,7 +41,7 @@ FRONTEND_DIR = project_root / "web"
 # 정적 파일 서빙: /static/main.js 처럼 접근
 app.mount(
     "/static",
-    StaticFiles(directory=str(FRONTEND_DIR)),
+    StaticFiles(directory=str(FRONTEND_DIR / "static")),
     name="static",
 )
 
