@@ -82,7 +82,7 @@ body::before {
   max-width: 1600px;
   height: 100vh; /* 🔥 높이 강제 지정 */
   transform: translateX(-50%);
-  background: url("asset/wave.svg") no-repeat center;
+  background: url("/static/asset/wave.svg") no-repeat center;
   background-size: contain; /* 비율 유지하며 크게 */
   opacity: 0.5;
   z-index: 0; /* 살짝 올려두고 */
@@ -451,13 +451,13 @@ input[type="file"]::file-selector-button:hover {
   width: 10px;
   height: 10px;
   flex-shrink: 0;
-  background: url("asset/down.svg") no-repeat center/contain;
+  background: url("/static/asset/down.svg") no-repeat center/contain;
   transition: transform 0.25s ease, background-image 0.25s ease;
 }
 
 /* 펼쳐졌을 때 아이콘 변경 + 회전 */
 .emotion-tags-section.open .emotion-icon {
-  background-image: url("asset/spread.svg"); /* 필요하면 경로 수정 */
+  background-image: url("/static/asset/spread.svg"); /* 필요하면 경로 수정 */
   transform: rotate(180deg);
 }
 
@@ -611,13 +611,13 @@ input[type="file"]::file-selector-button:hover {
   width: 10px;
   height: 10px;
   flex-shrink: 0;
-  background: url("asset/down.svg") no-repeat center/contain;
+  background: url("/static/asset/down.svg") no-repeat center/contain;
   transition: transform 0.25s ease, background-image 0.25s ease;
 }
 
 /* 펼쳐졌을 때 아이콘 변경 + 회전 */
 .study-section.open .study-icon {
-  background-image: url("asset/spread.svg");
+  background-image: url("/static/asset/spread.svg");
   transform: rotate(180deg);
 }
 
@@ -859,7 +859,7 @@ input[type="file"]::file-selector-button:hover {
 .status-illustration .bubble-box {
   width: 220px; /* 말풍선 크기에 맞게 조절 */
   height: 120px;
-  background: url("asset/bubble.png") no-repeat center/contain;
+  background: url("/static/asset/bubble.png") no-repeat center/contain;
   display: flex;
   align-items: center; /* 세로 가운데 */
   justify-content: center; /* 가로 가운데 */
