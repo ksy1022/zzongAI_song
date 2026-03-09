@@ -11,7 +11,7 @@
 
 쫑알은 외우기 어려운 공부 내용을 텍스트로 요약 후 노래로 자동 변환해 주는 멀티 에이전트 기반 AI 학습 서비스입니다. 낯선 외국어 문장 암기 점수 비교 연구에서 노래하기가 말하기보다 효과적이라는 결과를 바탕으로 멜로디 라인을 통한 기억력 향상 가능성에 주목하였습니다. 외우고 싶은 내용 또는 해당 내용이 담긴 이미지를 업로드하고 멜로디 생성에 적용할 감정 태그를 선택하여 학습에 최적화된 요약과 노래를 생성할 수 있습니다.
 
-<img src="https://github.com/user-attachments/assets/3b0cf7d2-18ab-4d6c-8f5a-a7703683a665">
+<img width="875" height="485" alt="Image" src="https://github.com/user-attachments/assets/6f139466-b20c-480f-9462-ce9f433f54ec" />
 
 ---
 
@@ -31,7 +31,7 @@
 
 마지막 에이전트까지 거친 가사와 멜로디 가이드는 Suno AI API를 통해 멜로디가 적용되어 노래가 생성됩니다.
 
-<img src="https://github.com/user-attachments/assets/fb70809c-6257-4196-818c-486bd5a4d466">
+<img width="1023" height="564" alt="Image" src="https://github.com/user-attachments/assets/ba86ea26-db39-462c-9e33-7d2402fe373c" />
 
 ---
 
@@ -39,7 +39,7 @@
 
 동요는 단순하고 명료한 선율 및 가사, 쉬운 운율과 형식으로 구성되어 있어 학습 가사 생성에 최적화되어 있습니다. 한국어 동요 165곡에 대해 음절과 각 동요의 느낌을 LLM으로 생성한 데이터를 Vector DB로 변환하여 구축하였고 사용자가 선택한 감정 태그와 쿼리를 보고 관련 내용을 정확하게 추출해 올 수 있도록 하였습니다.
 
-<img src="https://github.com/user-attachments/assets/c07b4135-68de-4bd7-941a-de30dc4fffa6">
+<img width="557" height="203" alt="Image" src="https://github.com/user-attachments/assets/c3541d47-aebf-45a4-a669-7f80f326fc4f" />
 
 ---
 
