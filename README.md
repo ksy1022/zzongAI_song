@@ -45,7 +45,7 @@
 
 ## 📁 Key Directories and Files | 주요 디렉토리 및 파일
 
-- `.github/workflows/`: GitHub Actions 기반 자동화 워크플로 및 CI 설정 파일
+- `.github/`: GitHub Actions 기반 자동화 워크플로 및 CI 설정 파일
 - `dashboard_logs/`: 사용자 로그 수집 및 대시보드 관련 코드
 - `data/`: 서비스에서 사용하는 Vector DB
 - `src/`: 핵심 로직과 백엔드 처리 코드
